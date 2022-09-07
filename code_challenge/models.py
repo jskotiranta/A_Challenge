@@ -12,7 +12,9 @@ class MostTraded(models.Model):
     index = models.IntegerField(primary_key=True)
     symbol = models.TextField()
     volume = models.FloatField()
+    def __str__(self):
+        return MostTraded({self.symbol},{self.volume})
 
     class Meta:
-        #managed = False
+        managed = True
         db_table = 'most_traded'

@@ -9,5 +9,14 @@
         <form action='actionUrl' method='GET'>
             <button type='submit'> Click here!</button>
         </form>
+        
+        {% block content %}
+        <h1>Stocks and volumes</h1>
+        <ul>
+            {% for index in most_traded %}
+            <li>symbol: {{ index.symbol }}, volume: {{ index.volume }}</li>
+            {% endfor %}
+        </ul>
+        {% endblock %}
     </body>
 </html>

@@ -39,7 +39,7 @@ def get_volumes(companies):
     print('Obtaining that trade volume info for you. This may take quite some time... \n Thank you for understanding :) \n')
     for name in companies['Symbol']:
         new_row = pd.DataFrame({'symbol': [name], 'volume': [ts.get_daily(name)[0].iloc[0]['5. volume']]})
-        av_data = av_data.append(new_row, ignore_index = True)
+        av_data = pd.concat([av_data, new_row], ignore_index = True)
         time.sleep(15) #AV allows max 5 queries per minute
     
     #finally we sort and select 5 most traded ones

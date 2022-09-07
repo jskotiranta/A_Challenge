@@ -18,7 +18,7 @@ def get_symbols():
     #extract just 50 first ones into data frame
     df = pd.read_csv(filename, sep='|', usecols=['Symbol'])
     #df.sort_values('Symbol') #actually useless as the list seems to be in order anyways
-    return df.head(50)
+    return df.head(6)
 
 
 from alpha_vantage.timeseries import TimeSeries

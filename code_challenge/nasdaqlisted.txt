@@ -313,7 +313,9 @@ AMTI|Applied Molecular Transport Inc. - common stock|Q|N|N|100|N|N
 AMTX|Aemetis, Inc - Common Stock|G|N|N|100|N|N
 AMWD|American Woodmark Corporation - Common Stock|Q|N|N|100|N|N
 AMYT|Amryt Pharma plc - American Depositary Shares|Q|N|N|100|N|N
+AMZD|Direxion Daily AMZN Bear 1X Shares|G|N|N|100|Y|N
 AMZN|Amazon.com, Inc. - Common Stock|Q|N|N|100|N|N
+AMZU|Direxion Daily AMZN Bull 1.5X Shares|G|N|N|100|Y|N
 ANAB|AnaptysBio, Inc. - Common Stock|Q|N|N|100|N|N
 ANDE|The Andersons, Inc. - Common Stock|Q|N|N|100|N|N
 ANEB|Anebulo Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
@@ -824,7 +826,7 @@ BSFC|Blue Star Foods Corp. - common stock|S|N|N|100|N|N
 BSGA|Blue Safari Group Acquisition Corp. - Class A Ordinary Share|S|N|N|100|N|N
 BSGAR|Blue Safari Group Acquisition Corp. - Right|S|N|N|100|N|N
 BSGAU|Blue Safari Group Acquisition Corp. - Unit|S|N|N|100|N|N
-BSGM|BioSig Technologies, Inc. - Common Stock|S|N|D|100|N|N
+BSGM|BioSig Technologies, Inc. - Common Stock|S|N|N|100|N|N
 BSJM|Invesco BulletShares 2022 High Yield Corporate Bond ETF|G|N|N|100|Y|N
 BSJN|Invesco BulletShares 2023 High Yield Corporate Bond ETF|G|N|N|100|Y|N
 BSJO|Invesco BulletShares 2024 High Yield Corporate Bond ETF|G|N|N|100|Y|N
@@ -1291,8 +1293,6 @@ CRON|Cronos Group Inc. - Common Share|G|N|N|100|N|N
 CROX|Crocs, Inc. - Common Stock|Q|N|N|100|N|N
 CRSP|CRISPR Therapeutics AG - Common Shares|G|N|N|100|N|N
 CRSR|Corsair Gaming, Inc. - Common Stock|Q|N|N|100|N|N
-CRTD|Creatd Inc. - Common Stock|S|N|D|100|N|N
-CRTDW|Creatd Inc. - Warrant|S|N|D|100|N|N
 CRTO|Criteo S.A. - American Depositary Shares|Q|N|N|100|N|N
 CRUS|Cirrus Logic, Inc. - Common Stock|Q|N|N|100|N|N
 CRVL|CorVel Corp. - Common Stock|Q|N|N|100|N|N
@@ -1630,7 +1630,7 @@ EFAS|Global X MSCI SuperDividend EAFE ETF|G|N|N|100|Y|N
 EFOI|Energy Focus, Inc. - Common Stock|S|N|D|100|N|N
 EFSC|Enterprise Financial Services Corporation - Common Stock|Q|N|N|100|N|N
 EFSCP|Enterprise Financial Services Corporation - Depositary Shares Each Representing a 1/40th Interest in a Share of 5% Fixed Rate Non-Cumulative Perpetual Preferred Stock, Series A|Q|N|N|100|N|N
-EFTR|eFFECTOR Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
+EFTR|eFFECTOR Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 EFTRW|eFFECTOR Therapeutics, Inc. - Warrant|S|N|N|100|N|N
 EGAN|eGain Corporation - Common Stock|S|N|N|100|N|N
 EGBN|Eagle Bancorp, Inc. - Common Stock|S|N|N|100|N|N
@@ -2183,6 +2183,8 @@ GGAAU|Genesis Growth Tech Acquisition Corp. - Unit|G|N|N|100|N|N
 GGAAW|Genesis Growth Tech Acquisition Corp. - Warrant|G|N|N|100|N|N
 GGAL|Grupo Financiero Galicia S.A. - American Depositary Shares, Class B Shares underlying|S|N|N|100|N|N
 GGE|Green Giant Inc. - Common Stock|S|N|N|100|N|N
+GGLL|Direxion Daily GOOGL Bull 1.5X Shares|G|N|N|100|Y|N
+GGLS|Direxion Daily GOOGL Bear 1X Shares|G|N|N|100|Y|N
 GGMC|Glenfarne Merger Corp. - Class A Common Stock|S|N|N|100|N|N
 GGMCU|Glenfarne Merger Corp. - Unit|S|N|N|100|N|N
 GGMCW|Glenfarne Merger Corp. - Warrant|S|N|N|100|N|N
@@ -2847,7 +2849,7 @@ JCICW|Jack Creek Investment Corp. - Warrants|S|N|N|100|N|N
 JCSE|JE Cleantech Holdings Limited - Ordinary Shares|S|N|N|100|N|N
 JCTCF|Jewett-Cameron Trading Company - Common Shares|S|N|N|100|N|N
 JD|JD.com, Inc. - American Depositary Shares|Q|N|N|100|N|N
-JEPQ|J.P. Morgan Nasdaq Equity Premium Income ETF|G|N|N|100|Y|N
+JEPQ|JPMorgan Nasdaq Equity Premium Income ETF|G|N|N|100|Y|N
 JFBR|Jeffs' Brands Ltd - Ordinary Shares|S|N|N|100|N|N
 JFBRW|Jeffs' Brands Ltd - Warrant|S|N|N|100|N|N
 JFIN|Jiayin Group Inc. - American Depositary Shares|G|N|N|100|N|N
@@ -3376,7 +3378,6 @@ MITAU|Coliseum Acquisition Corp. - Unit|S|N|N|100|N|N
 MITAW|Coliseum Acquisition Corp. - Warrant|S|N|N|100|N|N
 MITK|Mitek Systems, Inc. - Common Stock|S|N|E|100|N|N
 MITO|Stealth BioTherapeutics Corp. - American Depositary Shares|G|N|D|100|N|N
-MKD|Molecular Data Inc. - ADS|S|N|H|100|N|N
 MKSI|MKS Instruments, Inc. - Common Stock|Q|N|N|100|N|N
 MKTW|MarketWise, Inc. - Class A Common Stock|G|N|N|100|N|N
 MKTWW|MarketWise, Inc. - Warrant|G|N|N|100|N|N
@@ -3472,7 +3473,9 @@ MSDA|MSD Acquisition Corp. - Class A Ordinary Shares|S|N|N|100|N|N
 MSDAU|MSD Acquisition Corp. - Unit|S|N|N|100|N|N
 MSDAW|MSD Acquisition Corp. - Warrant|S|N|N|100|N|N
 MSEX|Middlesex Water Company - Common Stock|Q|N|N|100|N|N
+MSFD|Direxion Daily MSFT Bear 1X Shares|G|N|N|100|Y|N
 MSFT|Microsoft Corporation - Common Stock|Q|N|N|100|N|N
+MSFU|Direxion Daily MSFT Bull 1.5X Shares|G|N|N|100|Y|N
 MSGM|Motorsport Games Inc. - Class A Common Stock|S|N|D|100|N|N
 MSPR|MSP Recovery, Inc. - Class A Common Stock|G|N|N|100|N|N
 MSPRW|MSP Recovery, Inc. - Warrant|G|N|N|100|N|N
@@ -5112,6 +5115,7 @@ TITN|Titan Machinery Inc. - Common Stock|Q|N|N|100|N|N
 TIVC|Tivic Health Systems, Inc. - Common stock|S|N|N|100|N|N
 TKLF|Yoshitsu Co., Ltd - American Depositary Shares|S|N|N|100|N|N
 TKNO|Alpha Teknova, Inc. - Common Stock|G|N|N|100|N|N
+TLF|Tandy Leather Factory, Inc. - common stock|G|N|N|100|N|N
 TLGY|TLGY Acquisition Corporation - Class A Ordinary Share|G|N|N|100|N|N
 TLGYU|TLGY Acquisition Corporation - Unit|G|N|N|100|N|N
 TLGYW|TLGY Acquisition Corporation - Warrant|G|N|N|100|N|N
@@ -5722,4 +5726,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100||N
 ZY|Zymergen Inc. - Common Stock|Q|N|N|100|N|N
 ZYNE|Zynerba Pharmaceuticals, Inc. - Common Stock|G|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
-File Creation Time: 0906202215:41|||||||
+File Creation Time: 0907202209:15|||||||

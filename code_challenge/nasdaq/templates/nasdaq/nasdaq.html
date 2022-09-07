@@ -6,6 +6,13 @@
     </head>
     <body>
         Get your NASDAQ data: 
-        <button type = "button" value = {{ ndq }}>Click here!</button>
+        {% csrf_token %}
+        <button type = "submit" value = {{ ndq }}>Click here!</button>
+        <h1>Stocks and volumes</h1>
+        <ul>
+            {% for index in most_traded %}
+            <li>symbol: {{ most_traded.symbol }}, volume: {{ most_traded.volume }}</li>
+            {% endfor %}
+        </ul>
     </body>
 </html>

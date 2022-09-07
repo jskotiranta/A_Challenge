@@ -76,9 +76,13 @@ WSGI_APPLICATION = "code_challenge.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3", #sqlite3 is default
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
+        "ENGINE": "django.db.backends.sqlite3", #our own db
+        "NAME": BASE_DIR / "nasdaq_data.db",
+    }#,
+    #"default": {
+    #    "ENGINE": "django.db.backends.sqlite3", #sqlite3 is default
+    #    "NAME": BASE_DIR / "db.sqlite3",
+    #}
 }
 
 
